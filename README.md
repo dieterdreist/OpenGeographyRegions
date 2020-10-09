@@ -1,17 +1,18 @@
 # OpenGeographyRegions
-A project to create a free, global, crowdsourced, multilingual dataset of geographic regions.
+A project to create a free, global, crowdsourced, multilingual dataset of geographic regions. Typical usecase is drawing an oriented label at an approximate position and shape.
 
 **This is work in progress, pull requests and other input are welcome.**
 
-Just draw a geographic region you know and add a reference to wikipedia. A basic geojson editor can be found at [geojson.io](http://geojson.io/).
+Just draw a geographic region that you know, add a reference to wikidata, and sent your pull request. A basic geojson editor can be found at [geojson.io](http://geojson.io/).
 
 ## Simple polygons, appropriate for different scales.
-Starting with [natural earths](https://www.naturalearthdata.com/) 10m geography dataset. There are currently 1052 features.
+The project started with the 10m geography dataset from [natural earth](https://www.naturalearthdata.com/). There are currently 1052 features.
 
 ![](resources/names.png)
 
-## Linked Data (permits internationalization and semantics through integration with other datasets)
-Add a property "wikidata" with value "Q23" to reference a wikidata object.
+## Linked Data
+The integration of wikidata allows for internationalization in many languages and provides semantic information beyond location.
+Add a property "wikidata" with value "Q..." to reference a wikidata object.
 
 ## Open License
 The license is CC0.
@@ -19,32 +20,36 @@ The license is CC0.
 ## Data in GeoJSON
 The data is available in GeoJSON. 
 
-### geography_10m.geojson features in feature classes
+### geography_10m.geojson feature classes
 Currently used feature classes (and usage count), derived from natural earth:
-* 165 "archipel"
-*   9 "basin"
-*  37 "coast"
+
+**geo shapes**
 *   7 "continent"
-*  12 "delta"
-*   2 "depression"
-*  58 "desert"
-*   3 "foothills"
-*  44 "geoarea"
-*   3 "gorge"
-* 295 "island"
-*   4 "isthmus"
-*   3 "lake"
-*   5 "lowland"
-* 222 "mountain_range"
 *  68 "peninsula"
-*  30 "plain"
-*  72 "plateau"
+*  12 "delta"
+*   4 "isthmus"
+* 295 "island"
+* 165 "archipel"
+
+**geo climate**
+*  58 "desert"
 *   4 "tundra"
-*   6 "valley"
 *   3 "wetlands"
 
-The statistics are printed quick + dirty with this bash line: `cat geography_10m.geojson |cut -f 9 -d" "|sort|uniq -c`
+**landscapes**
+* 222 "mountain_range"
+*  72 "plateau"
+*  37 "coast"
+*  30 "plain"
+*   6 "valley"
+*   5 "lowland"
+*   9 "basin"
+*   3 "foothills"
+*   3 "lake"
+*   3 "gorge"
+*   2 "depression"
 
+*  44 "geoarea"
 
 ### Editing conventions
 Only use spaces, 2 spaces for each indentation level. Do not break the *geometry* value into lines so that the file becomes easier readable.
