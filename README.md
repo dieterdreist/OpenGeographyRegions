@@ -2,7 +2,7 @@
 A project to create a free, global, crowdsourced, multilingual dataset of geographic regions. This is work in progress, pull requests and other input are welcome. 
 
 ## Simple polygons, appropriate for different scales.
-Starting with [natural earths](https://www.naturalearthdata.com/) 10m geography dataset.
+Starting with [natural earths](https://www.naturalearthdata.com/) 10m geography dataset. There are currently 1052 features.
 
 ## Linked Data (permits internationalization and semantics through integration with other datasets)
 Add a property "wikidata" with value "Q23" to reference a wikidata object.
