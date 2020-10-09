@@ -1,5 +1,10 @@
 # OpenGeographyRegions
-A project to create a free, global, crowdsourced, multilingual dataset of geographic regions. This is work in progress, pull requests and other input are welcome. 
+A project to create a free, global, crowdsourced, multilingual dataset of geographic regions.
+**This is work in progress, pull requests and other input are welcome.**
+
+Just draw a geographic region you know and add a reference to wikipedia.
+
+A basic geojson editor can be found at [geojson.io](http://geojson.io/).
 
 ## Simple polygons, appropriate for different scales.
 Starting with [natural earths](https://www.naturalearthdata.com/) 10m geography dataset. There are currently 1052 features.
