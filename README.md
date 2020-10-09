@@ -1,10 +1,17 @@
 # OpenGeographyRegions
-A project to create a free, global, crowdsourced, multilingual dataset of geographic regions
+A project to create a free, global, crowdsourced, multilingual dataset of geographic regions. This is work in progress, pull requests and other input are welcome. 
 
 ## Simple polygons, appropriate for different scales.
-Starting with natural earths 10m geography dataset.
+Starting with [natural earths](https://www.naturalearthdata.com/) 10m geography dataset.
+
+## Linked Data (permits internationalization and semantics through integration with other datasets)
+Add a property "wikidata" with value "Q23" to reference a wikidata object.
+
+## Open License
+The license is CC0.
 
 ## Data in GeoJSON
+The data is available in GeoJSON. 
 Currently used feature classes (and usage count), derived from natural earth:
 
 ### geography_10m.geojson
@@ -31,6 +38,3 @@ Currently used feature classes (and usage count), derived from natural earth:
 *   3 "wetlands"
 
 The statistics are printed quick + dirty with this bash line: `cat geography_10m.geojson |cut -f 9 -d" "|sort|uniq -c`
-
-## Linked Data (internationalization through integration with wikidata)
-work in progress
