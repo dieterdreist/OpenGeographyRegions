@@ -12,9 +12,9 @@ The license is CC0.
 
 ## Data in GeoJSON
 The data is available in GeoJSON. 
-Currently used feature classes (and usage count), derived from natural earth:
 
-### geography_10m.geojson
+### geography_10m.geojson features in feature classes
+Currently used feature classes (and usage count), derived from natural earth:
 * 165 "archipel"
 *   9 "basin"
 *  37 "coast"
@@ -38,3 +38,16 @@ Currently used feature classes (and usage count), derived from natural earth:
 *   3 "wetlands"
 
 The statistics are printed quick + dirty with this bash line: `cat geography_10m.geojson |cut -f 9 -d" "|sort|uniq -c`
+
+
+### Editing conventions
+Only use spaces, 2 spaces for each indentation level. Do not break the *geometry* value into lines so that the file becomes easier readable.
+#### Properties
+Stick to this property ordering to avoid unnecessary history cluttering.
+* name
+* namealt
+* featureclass
+* scalerank *(not sure this is needed, might be removed in a following version)*
+* region
+* subregion
+* wikidata
