@@ -8,6 +8,8 @@ Just draw a geographic region you know and add a reference to wikipedia. A basic
 ## Simple polygons, appropriate for different scales.
 Starting with [natural earths](https://www.naturalearthdata.com/) 10m geography dataset. There are currently 1052 features.
 
+![](resources/names.png)
+
 ## Linked Data (permits internationalization and semantics through integration with other datasets)
 Add a property "wikidata" with value "Q23" to reference a wikidata object.
 
@@ -55,3 +57,15 @@ Stick to this property ordering to avoid unnecessary history cluttering.
 * region
 * subregion
 * wikidata
+
+#### Regions
+* Africa
+* Antarctica
+* Asia
+* Europe
+* North America
+* Oceania
+* South America
+* Seven seas (open ocean)
+
+![](resources/regions.png)
