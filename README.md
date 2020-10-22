@@ -18,7 +18,7 @@ Add a property "wikidata" with value "Q..." to reference a wikidata object.
 The license is CC0.
 
 ## Data in GeoJSON
-The data is available in GeoJSON. 
+The data is available in GeoJSON. Here is the [raw version](https://github.com/dieterdreist/OpenGeographyRegions/raw/master/geojson/geography_10m.geojson).
 
 ### geography_10m.geojson feature classes
 Currently used feature classes (and usage count), derived from natural earth:
