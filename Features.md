@@ -37,28 +37,6 @@ The following table shows which features can currently be expected in the differ
 | valley | terrain | low area between hills, often with a river running through it | Q39816 |
 | wetlands | waterrelated | land area that is permanently or seasonally saturated with water | Q170321 |
 
-### imported from geography_10m.geojson feature classes
-*   7 "continent"
-*  68 "peninsula"
-*  12 "delta"
-*   4 "isthmus"
-* 295 "island"
-* 165 "archipelago"
-*  58 "desert"
-*   4 "tundra"
-*   3 "wetlands"
-* 222 "mountain_range"
-*  72 "plateau"
-*  37 "coast"
-*  30 "plain"
-*   6 "valley"
-*   5 "lowland"
-*   11 "basin"
-*   3 "foothills"
-*   3 "lake"
-*   3 "gorge"
-*  44 "geoarea"
-
 ### Properties
 While all properties are optional you should provide these properties for easier handling (identification)
 * name
@@ -69,7 +47,7 @@ While all properties are optional you should provide these properties for easier
 * wikidata
 
 ### Regions
-These are the currently used values for the `region`:
+These are the currently used values for the `region`, you should not add more regions:
 * Africa
 * Antarctica
 * Asia
@@ -80,6 +58,7 @@ These are the currently used values for the `region`:
 * South America
 
 ### Subregions
+These are the currently used values for the `subregion` but you can add more subregions as you see fit:
 * Arabian Sea
 * Arctic Archipelago
 * Arctic Ocean
@@ -108,3 +87,24 @@ These are the currently used values for the `region`:
 * Southern Indian Ocean
 * West Indies
 
+### imported from geography_10m.geojson v.5.0.0 feature classes
+*   7 "continent"
+*  68 "peninsula"
+*  12 "delta"
+*   4 "isthmus"
+* 295 "island"
+* 165 "archipelago"
+*  58 "desert"
+*   4 "tundra"
+*   3 "wetlands"
+* 222 "mountain_range"
+*  72 "plateau"
+*  37 "coast"
+*  30 "plain"
+*   6 "valley"
+*   5 "lowland"
+*   11 "basin"
+*   3 "foothills"
+*   3 "lake"
+*   3 "gorge"
+*  44 "geoarea"
