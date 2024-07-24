@@ -46,3 +46,6 @@ Do not add additional properties without discussion. Major importance is on the 
 * South America
 
 ![](resources/regions.png)
+
+### Usage hints
+You can reduce the areas to a line for labeling with PostGIS, have a look at [ST_ApproximateMedialAxis](https://postgis.net/docs/ST_ApproximateMedialAxis.html)
