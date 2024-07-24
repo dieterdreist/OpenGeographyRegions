@@ -1,0 +1,122 @@
+[
+  {
+    "featureclass": "archipel",
+    "layer": "islands",
+    "definition": "An archipelago is a group of islands",
+    "wikidata": "Q33837"
+  },
+  {
+    "featureclass": "basin",
+    "layer": "terrain",
+    "definition": "here a basin is a depression on land (seawater covered basins are found in the sea file)",
+    "wikidata": "Q190429"
+  },
+  {
+    "featureclass": "coast",
+    "layer": "waterrelated",
+    "definition": "a coastal land area",
+    "wikidata": "Q93352"
+  },
+  {
+    "featureclass": "continent",
+    "layer": "continents",
+    "definition": "large landmass as recognized by cultural convention",
+    "wikidata": "Q5107"
+  },
+  {
+    "featureclass": "delta",
+    "layer": "waterrelated",
+    "definition": "a river delta, a landform at the mouth of a river",
+    "wikidata": "Q43197"
+  },
+  {
+    "featureclass": "desert",
+    "layer": "deserts",
+    "definition": "a landscape with little precipitation",
+    "wikidata": "Q8514"
+  },
+  {
+    "featureclass": "foothills",
+    "layer": "terrain",
+    "definition": "hilly transition zone between plains and higher mountains or hills",
+    "wikidata": "Q1354045"
+  },
+  {
+    "featureclass": "geoarea",
+    "layer": "geoareas",
+    "definition": "a geographic region",
+    "wikidata": "Q82794"
+  },
+  {
+    "featureclass": "gorge",
+    "layer": "terrain",
+    "definition": "a narrow and deep ravine between cliffs, a canyon",
+    "wikidata": "Q150784"
+  },
+  {
+    "featureclass": "island",
+    "layer": "islands",
+    "definition": "an island: land completely surrounded by water and smaller than a continent",
+    "wikidata": "Q23442"
+  },
+  {
+    "featureclass": "isthmus",
+    "layer": "waterrelated",
+    "definition": "a narrow strip of land connecting two larger land areas",
+    "wikidata": "Q93267"
+  },
+  {
+    "featureclass": "lake",
+    "layer": "waterrelated",
+    "definition": "a body of relatively still water located in a basin",
+    "wikidata": "Q23397"
+  },
+  {
+    "featureclass": "lowland",
+    "layer": "terrain",
+    "definition": "plains which are located close to the sea level (not above ~150m)",
+    "wikidata": "Q193071"
+  },
+  {
+    "featureclass": "mountain_range",
+    "layer": "terrain",
+    "definition": "an area with several geologically related mountains",
+    "wikidata": "Q46831"
+  },
+  {
+    "featureclass": "peninsula",
+    "layer": "waterrelated",
+    "definition": "a landform which is surrounded more than half but not completely by water",
+    "wikidata": "Q34763"
+  },
+  {
+    "featureclass": "plain",
+    "layer": "terrain",
+    "definition": "a flat geographic region (see also lowland and plateau)",
+    "wikidata": "Q160091"
+  },
+  {
+    "featureclass": "plateau",
+    "layer": "terrain",
+    "definition": "a flat geographic region which is higher than the surrounding",
+    "wikidata": "Q75520"
+  },
+  {
+    "featureclass": "tundra",
+    "layer": "biomes",
+    "definition": "a biome where the tree growth is hindered by low temperatures and short grow seasons",
+    "wikidata": "Q43262"
+  },
+  {
+    "featureclass": "valley",
+    "layer": "terrain",
+    "definition": "low area between hills, often with a river running through it",
+    "wikidata": "Q39816"
+  },
+  {
+    "featureclass": "wetlands",
+    "layer": "waterrelated",
+    "definition": "land area that is permanently or seasonally saturated with water",
+    "wikidata": "Q170321"
+  }
+]
