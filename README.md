@@ -21,7 +21,9 @@ The license is CC0.
 The data is available in GeoJSON. Here is the [raw version](https://github.com/dieterdreist/OpenGeographyRegions/raw/master/geojson/geography_10m.geojson).
 
 ### geography_10m.geojson feature classes
-Currently used feature classes (and usage count), derived from natural earth:
+Currently used feature classes (and usage count), derived from natural earth.
+
+The structure of the data can be seen here: [Features](Features.md)
 
 **geo shapes**
 *   7 "continent"
@@ -43,11 +45,10 @@ Currently used feature classes (and usage count), derived from natural earth:
 *  30 "plain"
 *   6 "valley"
 *   5 "lowland"
-*   9 "basin"
+*   11 "basin"
 *   3 "foothills"
 *   3 "lake"
 *   3 "gorge"
-*   2 "depression"
 
 *  44 "geoarea"
 
