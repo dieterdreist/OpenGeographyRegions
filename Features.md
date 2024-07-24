@@ -4,10 +4,11 @@ The data is divided in thematic layers, each layer is represented by a geojson f
 * continents
 * geoareas
 * islands
+* maritime
 * terrain
 * waterrelated
 * deserts
-* biomes 
+* biomes
 
 Note: while deserts are waterrelated, they get their own layer.
 
@@ -36,6 +37,19 @@ The following table shows which features can currently be expected in the differ
 | tundra | biomes | a biome where the tree growth is hindered by low temperatures and short grow seasons | Q43262 |
 | valley | terrain | low area between hills, often with a river running through it | Q39816 |
 | wetlands | waterrelated | land area that is permanently or seasonally saturated with water | Q170321 |
+| bay | maritime | | |
+| channel | maritime | | |
+| fjord | maritime | | |
+| generic | maritime | | |
+| gulf | maritime | | |
+| inlet | maritime | | |
+| lagoon | maritime | | |
+| ocean | maritime | | |
+| reef | maritime | | |
+| river | maritime | | |
+| sea | maritime | | |
+| sound | maritime | | |
+| strait | maritime | | |
 
 ### Properties
 While all properties are optional you should provide these properties for easier handling (identification)
