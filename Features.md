@@ -58,3 +58,53 @@ The following table shows which features can currently be expected in the differ
 *   3 "lake"
 *   3 "gorge"
 *  44 "geoarea"
+
+### Properties
+While all properties are optional you should provide these properties for easier handling (identification)
+* name
+* featureclass
+* scalerank 
+* region
+* subregion
+* wikidata
+
+### Regions
+These are the currently used values for the `region`:
+* Africa
+* Antarctica
+* Asia
+* Europe
+* North America
+* Oceania
+* Seven seas (open ocean)
+* South America
+
+### Subregions
+* Arabian Sea
+* Arctic Archipelago
+* Arctic Ocean
+* Australasia
+* Bay of Bengal
+* British Isles
+* Central America
+* Comores
+* Falkland Islands
+* Galapagos islands
+* Greenland
+* Iceland
+* Indian Ocean
+* Is. Revillagigedo
+* Malay Archipelago
+* Mascarene Islands
+* Mediterranean Sea
+* Melanesia
+* Micronesia
+* New Zealand
+* North Atlantic Ocean
+* Polynesia
+* Seychelles
+* South China Sea
+* Southern Atlantic Ocean
+* Southern Indian Ocean
+* West Indies
+

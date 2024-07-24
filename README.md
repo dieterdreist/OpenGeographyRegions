@@ -27,6 +27,7 @@ You can use formatjson.py from the [scripts folder](scripts) to format a geojson
 Note that you have to escape special characters in json (e.g. names). You can use for quick adhoc conversions `echo -n "your strange näme" | jq -Rsa .`
 #### Properties
 Stick to this property ordering to avoid unnecessary history cluttering (the script is ensuring the correct order).
+Do not add additional properties without discussion. Major importance is on the wikidata item link, as the idea is to pull names in different languages from wikidata and not store them here.
 * name
 * featureclass
 * scalerank *(not sure this is needed, might be removed in a following version)*
@@ -41,7 +42,7 @@ Stick to this property ordering to avoid unnecessary history cluttering (the scr
 * Europe
 * North America
 * Oceania
-* South America
 * Seven seas (open ocean)
+* South America
 
 ![](resources/regions.png)
