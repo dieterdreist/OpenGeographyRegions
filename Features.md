@@ -12,7 +12,7 @@ The data is divided in thematic layers, each layer is represented by a geojson f
 Note: while deserts are waterrelated, they get their own layer.
 
 ## Features
-The following table shows which features can currently be expected in the different layers. You can also find this information structured in featureclasses_layers.json. This is work in progress, and featureclasses as well as layers may still be added or changed if deemed useful.
+The following table shows which features can currently be expected in the different layers. You can also find this information structured in [featureclasses_layers.json](https://github.com/dieterdreist/OpenGeographyRegions/blob/master/featureclasses_layers.json). This is work in progress, and featureclasses as well as layers may still be added or changed if deemed useful.
 
 | featureclass | layer | definition | wikidata |
 |--------------|-------------|-----------------------------------------------------------|----------|
