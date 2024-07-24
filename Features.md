@@ -16,7 +16,7 @@ The following table shows which features can currently be expected in the differ
 
 | featureclass | layer | definition | wikidata |
 |--------------|-------------|-----------------------------------------------------------|----------|
-| archipel | islands | An archipelago is a group of islands | Q33837 |
+| archipelago | islands | An archipelago is a group of islands | Q33837 |
 | basin | terrain | here a basin is a depression on land (seawater covered basins are found in the sea file) | Q190429 |
 | coast | waterrelated | a coastal land area | Q93352 |
 | continent | continents | large landmass as recognized by cultural convention | Q5107 |

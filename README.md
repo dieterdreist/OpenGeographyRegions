@@ -31,7 +31,7 @@ The structure of the data can be seen here: [Features](Features.md)
 *  12 "delta"
 *   4 "isthmus"
 * 295 "island"
-* 165 "archipel"
+* 165 "archipelago"
 
 **geo climate**
 *  58 "desert"

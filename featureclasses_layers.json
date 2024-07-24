@@ -1,6 +1,6 @@
 [
   {
-    "featureclass": "archipel",
+    "featureclass": "archipelago",
     "layer": "islands",
     "definition": "An archipelago is a group of islands",
     "wikidata": "Q33837"
