@@ -18,7 +18,7 @@ The following table shows which features can currently be expected in the differ
 |--------------|-------------|-----------------------------------------------------------|----------|
 | archipelago | islands | An archipelago is a group of islands | Q33837 |
 | basin | terrain | here a basin is a depression on land (seawater covered basins are found in the sea file) | Q190429 |
-| coast | waterrelated | a coastal land area | Q93352 |
+| coast | terrain | a coastal land area | Q93352 |
 | continent | continents | large landmass as recognized by cultural convention | Q5107 |
 | delta | waterrelated | a river delta, a landform at the mouth of a river | Q43197 |
 | desert | deserts | a landscape with little precipitation | Q8514 |
@@ -26,11 +26,11 @@ The following table shows which features can currently be expected in the differ
 | geoarea | geoareas | a geographic region | Q82794 |
 | gorge | terrain | a narrow and deep ravine between cliffs, a canyon | Q150784 |
 | island | islands | an island: land completely surrounded by water and smaller than a continent | Q23442 |
-| isthmus | waterrelated | a narrow strip of land connecting two larger land areas | Q93267 |
+| isthmus | terrain | a narrow strip of land connecting two larger land areas | Q93267 |
 | lake | waterrelated | a body of relatively still water located in a basin | Q23397 |
 | lowland | terrain | plains which are located close to the sea level (not above ~150m) | Q193071 |
-| mountain_range | terrain | an area with several geologically related mountains | Q46831 |
-| peninsula | waterrelated | a landform which is surrounded more than half but not completely by water | Q34763 |
+| mountainrange | terrain | an area with several geologically related mountains | Q46831 |
+| peninsula | terrain | a landform which is surrounded more than half but not completely by water | Q34763 |
 | plain | terrain | a flat geographic region (see also lowland and plateau) | Q160091 |
 | plateau | terrain | a flat geographic region which is higher than the surrounding | Q75520 |
 | tundra | biomes | a biome where the tree growth is hindered by low temperatures and short grow seasons | Q43262 |

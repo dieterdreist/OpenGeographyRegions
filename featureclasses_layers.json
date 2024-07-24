@@ -13,7 +13,7 @@
   },
   {
     "featureclass": "coast",
-    "layer": "waterrelated",
+    "layer": "terrain",
     "definition": "a coastal land area",
     "wikidata": "Q93352"
   },
@@ -61,7 +61,7 @@
   },
   {
     "featureclass": "isthmus",
-    "layer": "waterrelated",
+    "layer": "terrain",
     "definition": "a narrow strip of land connecting two larger land areas",
     "wikidata": "Q93267"
   },
@@ -85,7 +85,7 @@
   },
   {
     "featureclass": "peninsula",
-    "layer": "waterrelated",
+    "layer": "terrain",
     "definition": "a landform which is surrounded more than half but not completely by water",
     "wikidata": "Q34763"
   },
