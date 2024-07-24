@@ -53,7 +53,9 @@ The structure of the data can be seen here: [Features](Features.md)
 *  44 "geoarea"
 
 ### Editing conventions
-Only use spaces, 2 spaces for each indentation level. Do not break the *geometry* value into lines so that the file becomes easier readable.
+Only use spaces, 2 spaces for each indentation level. Do not break the *geometry* value into lines so that the file becomes easier readable. 4 digits coordinate precision should be sufficient (this corresponds to about 11.1m resolution at the equator)
+You can use formatjson.py from the [scripts folder](scripts) to format a geojson file accordingly.
+Note that you have to escape special characters in json (e.g. names). You can use for quick adhoc conversions `echo -n "your strange näme" | jq -Rsa .`
 #### Properties
 Stick to this property ordering to avoid unnecessary history cluttering.
 * name
