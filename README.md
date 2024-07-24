@@ -48,4 +48,4 @@ Do not add additional properties without discussion. Major importance is on the 
 ![](resources/regions.png)
 
 ### Usage hints
-You can reduce the areas to a line for labeling with PostGIS, have a look at [ST_ApproximateMedialAxis](https://postgis.net/docs/ST_ApproximateMedialAxis.html)
+For labeling you can reduce the areas to a line, e.g. with PostGIS and [ST_ApproximateMedialAxis](https://postgis.net/docs/ST_ApproximateMedialAxis.html) or with the python tool [label_centerlines](https://github.com/ungarj/label_centerlines) by Joachim Ungar.
