@@ -48,4 +48,7 @@ Do not add additional properties without discussion. Major importance is on the 
 ![](resources/regions.png)
 
 ### Usage hints
+#### Localized names
+You can query wikidata for localized names with the script [add_localized_names.py](scripts/add_localized_names.py), for example `./add_localized_names.py input.geojson output.geojson de en fr it` will get the localized names in German, English, French and Italian and add them as name_de etc. in the output file.
+#### Labels
 For labeling you can reduce the areas to a line, e.g. with PostGIS and [ST_ApproximateMedialAxis](https://postgis.net/docs/ST_ApproximateMedialAxis.html) or with the python tool [label_centerlines](https://github.com/ungarj/label_centerlines) by Joachim Ungar.
