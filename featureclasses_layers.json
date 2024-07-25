@@ -78,7 +78,7 @@
     "wikidata": "Q193071"
   },
   {
-    "featureclass": "mountain_range",
+    "featureclass": "mountainrange",
     "layer": "terrain",
     "definition": "an area with several geologically related mountains",
     "wikidata": "Q46831"
@@ -118,5 +118,81 @@
     "layer": "waterrelated",
     "definition": "land area that is permanently or seasonally saturated with water",
     "wikidata": "Q170321"
+  },
+  {
+    "featureclass": "bay",
+    "layer": "maritime",
+    "definition": "body of water connected to an ocean or lake, formed by an indentation of the shoreline",
+    "wikidata": "Q39594"
+  },
+  {
+    "featureclass": "channel",
+    "layer": "maritime",
+    "definition": "type of landform; confined river; strait",
+    "wikidata": "Q1210950"
+  },
+  {
+    "featureclass": "fjord",
+    "layer": "maritime",
+    "definition": "long, narrow inlet of the ocean created in a valley carved by glacial activity",
+    "wikidata": "Q45776"
+  },
+  {
+    "featureclass": "generic",
+    "layer": "maritime"
+  },
+  {
+    "featureclass": "gulf",
+    "layer": "maritime",
+    "definition": "large inlet that is an arm of an ocean or sea",
+    "wikidata": "Q1322134"
+  },
+  {
+    "featureclass": "inlet",
+    "layer": "maritime",
+    "definition": "an indentation of a shoreline that often leads to an enclosed body of salt water, such as a sound, bay, lagoon, or marsh",
+    "wikidata": "Q1172599"
+  },
+  {
+    "featureclass": "lagoon",
+    "layer": "maritime",
+    "definition": "shallow body of water separated from larger body of water by a barrier",
+    "wikidata": "Q187223"
+  },
+  {
+    "featureclass": "ocean",
+    "layer": "maritime",
+    "definition": "very large body of saline water",
+    "wikidata": "Q9430"
+  },
+  {
+    "featureclass": "reef",
+    "layer": "maritime",
+    "definition": "feature lying beneath the surface of the water",
+    "wikidata": "Q184358"
+  },
+  {
+    "featureclass": "river",
+    "layer": "maritime",
+    "definition": "larger natural watercourse",
+    "wikidata": "Q4022"
+  },
+  {
+    "featureclass": "sea",
+    "layer": "maritime",
+    "definition": "large body of saline water",
+    "wikidata": "Q165"
+  },
+  {
+    "featureclass": "sound",
+    "layer": "maritime",
+    "definition": "long, relatively wide body of water, connecting two larger parts of the sea",
+    "wikidata": "Q491713"
+  },
+  {
+    "featureclass": "strait",
+    "layer": "maritime",
+    "definition": "naturally formed, narrow waterway that connects two larger bodies of water",
+    "wikidata": "Q37901"
   }
 ]

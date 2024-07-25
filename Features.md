@@ -37,19 +37,19 @@ The following table shows which features can currently be expected in the differ
 | tundra | biomes | a biome where the tree growth is hindered by low temperatures and short grow seasons | Q43262 |
 | valley | terrain | low area between hills, often with a river running through it | Q39816 |
 | wetlands | waterrelated | land area that is permanently or seasonally saturated with water | Q170321 |
-| bay | maritime | | |
-| channel | maritime | | |
-| fjord | maritime | | |
-| generic | maritime | | |
-| gulf | maritime | | |
-| inlet | maritime | | |
-| lagoon | maritime | | |
-| ocean | maritime | | |
-| reef | maritime | | |
-| river | maritime | | |
-| sea | maritime | | |
-| sound | maritime | | |
-| strait | maritime | | |
+| bay | maritime | body of water connected to an ocean or lake, formed by an indentation of the shoreline | Q39594 |
+| channel | maritime | type of landform; confined river; strait | Q1210950 |
+| fjord | maritime | long, narrow inlet of the ocean created in a valley carved by glacial activity | Q45776 |
+| generic | maritime |  |  |
+| gulf | maritime | large inlet that is an arm of an ocean or sea | Q1322134 |
+| inlet | maritime | an indentation of a shoreline that often leads to an enclosed body of salt water, such as a sound, bay, lagoon, or marsh | Q1172599 |
+| lagoon | maritime | shallow body of water separated from larger body of water by a barrier | Q187223 |
+| ocean | maritime | very large body of saline water | Q9430 |
+| reef | maritime | feature lying beneath the surface of the water | Q184358 |
+| river | maritime | larger natural watercourse | Q4022 |
+| sea | maritime | large body of saline water | Q165 |
+| sound | maritime | long, relatively wide body of water, connecting two larger parts of the sea | Q491713 |
+| strait | maritime | naturally formed, narrow waterway that connects two larger bodies of water | Q37901 |
 
 ### Properties
 While all properties are optional you should provide these properties for easier handling (identification)
