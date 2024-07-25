@@ -41,7 +41,7 @@ def add_labels_to_geojson(input_geojson, output_geojson, languages):
                 feature['properties'][f'name_{lang}'] = label
 
     with open(output_geojson, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=True, indent=2)
 
 def main():
     parser = argparse.ArgumentParser(description="Add names in multiple languages from Wikidata to a GeoJSON file.")
