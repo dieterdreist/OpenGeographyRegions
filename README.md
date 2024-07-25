@@ -35,6 +35,8 @@ Do not add additional properties without discussion. Major importance is on the 
 * subregion
 * wikidata
 
+(the marine layer does not have `region` and `subregion` properties). 
+
 #### Regions
 * Africa
 * Antarctica
