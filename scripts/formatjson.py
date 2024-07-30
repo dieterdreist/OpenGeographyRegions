@@ -20,6 +20,17 @@ def main():
             jsonfromfile = geofile.read()
             # Parse the JSON content
             pythobject = json.loads(jsonfromfile)
+           
+            # Define the sorting key function to handle null values
+            def sort_key(feature):
+                region = feature['properties'].get('region')
+                name = feature['properties'].get('name')
+                # Replace None with a special value that ensures it sorts before any string
+                return ('' if region is None else region, '' if name is None else name)
+        
+            # Sort the features by properties.region and then by properties.name
+            pythobject['features'].sort(key=sort_key)
+
             generalobject = pythobject.copy()
             generalobject.pop("features")
             j = json.dumps(generalobject, indent=2)
@@ -44,6 +55,7 @@ def main():
                 # reassign the OrderedDict
                 otherkeys["properties"]=fproperties
 
+                # format the output string so that the geometry property is in a single line:
                 f = json.dumps(otherkeys, indent=2, sort_keys=False)
                 f = f[:f.rfind('\n')] # remove last line
                 f = f + (',\n  "geometry": ')
