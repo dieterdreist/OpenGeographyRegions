@@ -9,12 +9,12 @@ Note that you have to escape special characters in json (e.g. names). You can us
 
 ### Properties
 Stick to this property ordering to avoid unnecessary history cluttering (the script is ensuring the correct order).
-Do not add additional properties without discussion. Major importance is on the wikidata item link, as the idea is to pull names in different languages from wikidata and not store them here.
+Do not add additional properties without discussion. Major importance is on the wikidata item link, because it is used to pull names in different languages from wikidata so we do not need to store them here.
 * name
 * featureclass
 * scalerank *(not sure this is needed, might be removed in a following version)*
-* region
-* subregion
+* region (should be there, see below for expected values)
+* subregion (is optional)
 * wikidata
 
 (the marine layer does not have `region` and `subregion` properties). 
