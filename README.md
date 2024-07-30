@@ -13,18 +13,17 @@ The structure of the data can be seen here: [Features](Features.md)
 
 ## Linked Data
 The integration of wikidata allows for internationalization in many languages and provides semantic information beyond location.
-Add a property "wikidata" with value "Q..." to reference a wikidata object.
+Add a property `wikidata` with value "Q..." (wikidata id) to reference a wikidata object.
 
 ## Open License
 The license is CC0.
 
 ## Data in GeoJSON
-The data is available in GeoJSON. Here is the [raw version](https://github.com/dieterdreist/OpenGeographyRegions/raw/master/geojson/geography_10m.geojson).
+The data is available in GeoJSON. Here is the [raw version](https://github.com/dieterdreist/OpenGeographyRegions/raw/master/geojson/).
 
 ### Editing conventions
-Only use spaces, 2 spaces for each indentation level. Do not break the *geometry* value into lines so that the file becomes easier readable. 4 digits coordinate precision should be sufficient (this corresponds to about 11.1m resolution at the equator)
-You can use formatjson.py from the [scripts folder](scripts) to format a geojson file accordingly.
-Note that you have to escape special characters in json (e.g. names). You can use for quick adhoc conversions `echo -n "your strange näme" | jq -Rsa .`
+See [CONTRIBUTING](CONTRIBUTING) for more information.
+
 #### Properties
 Stick to this property ordering to avoid unnecessary history cluttering (the script is ensuring the correct order).
 Do not add additional properties without discussion. Major importance is on the wikidata item link, as the idea is to pull names in different languages from wikidata and not store them here.
