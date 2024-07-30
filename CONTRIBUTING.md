@@ -40,6 +40,9 @@ Within the geojson file, the features are sorted by `region` and within the regi
 
 ## Examples
 The following ogr2ogr command filters and converts a shapefile to a geojson with 4 digits coodinate precision:
-`ogr2ogr -f GeoJSON 10m_marine_polys.geojson ~/Downloads/ne_10m_geography_marine_polys/ne_10m_geography_marine_polys.shp \
-                                                                -lco COORDINATE_PRECISION=4 \
-                                                                -sql "SELECT featurecla AS featureclass, name, scalerank, wikidataid as wikidata FROM ne_10m_geography_marine_polys ORDER BY name ASC"`
+```
+ogr2ogr -f GeoJSON 10m_marine_polys.geojson \
+          ~/Downloads/ne_10m_geography_marine_polys/ne_10m_geography_marine_polys.shp \
+          -lco COORDINATE_PRECISION=4 \
+          -sql "SELECT featurecla AS featureclass, name, scalerank, wikidataid as wikidata FROM ne_10m_geography_marine_polys ORDER BY name ASC"
+```
