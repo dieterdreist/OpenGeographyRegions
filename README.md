@@ -22,7 +22,7 @@ The license is CC0.
 The data is available in GeoJSON. Here is the [raw version](https://github.com/dieterdreist/OpenGeographyRegions/raw/master/geojson/).
 
 ### Editing conventions
-See [CONTRIBUTING](CONTRIBUTING) for more information.
+Feel free to draw polygons for areas that you know and propose them for inclusion. See [CONTRIBUTING](CONTRIBUTING) for more information.
 
 #### Properties
 Stick to this property ordering to avoid unnecessary history cluttering (the script is ensuring the correct order).
